@@ -1,0 +1,17 @@
+.container{
+    min-width: 360px;
+}
+.course-details ul li{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    & img{
+        margin: 5px;
+        padding: 10px;
+        border-radius: 200px;
+        border-color: aqua;
+        &:hover{
+           background-color:  #c9b608;
+        }
+    }
+}
